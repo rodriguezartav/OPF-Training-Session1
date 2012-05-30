@@ -1,0 +1,29 @@
+<%- require("views/slideHeader")(options: @) %>
+
+<div id="" class="container board wide">
+
+<h1>Web Sockets</h1>
+<h3>/lib/SocketModule.coffee</h3>            
+
+<pre class="pre prettyprint">
+Spine.Model.SocketModel =
+
+  extended: ->
+    @change @saveLocal
+    @bind "query_success" , @saveLocal
+    @fetch @loadLocal
+    Spine.socketModels.push @
+    
+    @extend
+      autoPush             :   false
+
+      updateFromSocket: (message) =>
+        results = JSON.parse message
+        @refresh results
+        @trigger "push_success" 
+        return results
+</pre>
+
+  </div>
+  
+</div>

@@ -1,0 +1,17 @@
+<%- require("views/slideHeader")(options: @) %>
+
+<div id="" class="container bulletDescription">
+
+
+    <dl class="">
+
+        <dt>
+          <i class="icon-random"></i> Async Servers</dt>
+          <dd>
+                  <h6>Frontend-Backend Servers<h6>
+                  <h3>Async Realtime Front-ends are very different</h3>
+                </dd>
+
+        </dl>
+
+</div>

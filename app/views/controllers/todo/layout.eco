@@ -1,0 +1,11 @@
+<div class="well">
+  <div class="row-fluid">
+    <div class="span11">
+      <input class="span12"/>
+    </div>
+    <a class="btn span1 btn-primary btn_add_todo"><i class="icon-ok-sign icon-large"></i></a>
+  </div>
+</div>
+
+<ul class="unstyled list">
+</ul>

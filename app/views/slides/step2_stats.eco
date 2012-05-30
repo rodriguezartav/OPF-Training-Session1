@@ -1,0 +1,39 @@
+<%- require("views/slideHeader")(options: @) %>
+
+<div id="" class="container bulletDescription">
+
+
+
+      <h1>HTTP & AJAX</h1>
+      <div classs="alert">After three decades, we finally fixed the web...</div>
+
+
+        <div class="well">
+          <ul>
+            <li><h2 class="bodytext"><strong>Use case A</strong>: 1,000 clients polling every second: (6.6 Mbps)</h2>
+            </li>
+            <li><h2 class="bodytext"> <strong>Use case B</strong>: 10,000 clients polling every second: (66 Mbps)</h2>
+            </li>
+            <li><h2 class="bodytext"> <strong>Use case C</strong>: 100,000 clients polling every 1 second: (665 Mbps)</h2>
+            </li>
+          </ul>
+        </div>
+  
+  
+        <h1>Web Sockets</h1>
+        <div classs="alert">After three decades, we finally fixed the web...</div>
+
+    <div class="well">
+      
+      <ul>
+        <li><h2 class="bodytext"><strong>Use case A</strong>: 1,000 clients receive 1 message per second: (0.015 Mbps)</h2>
+        </li>
+        <li><h2 class="bodytext"> <strong>Use case B</strong>: 10,000 clients receive 1 message per second: (0.153 Mbps)</h2>
+        </li>
+        <li><h2 class="bodytext"><strong> Use case C</strong>: 100,000 clients receive 1 message per second: (1.5 Mbps)</h2>
+        </li>
+      </ul>
+    
+    </div>
+    
+  </div>

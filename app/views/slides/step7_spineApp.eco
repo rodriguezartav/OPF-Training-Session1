@@ -1,0 +1,16 @@
+<%- require("views/slideHeader")(options: @) %>
+
+  
+  <div id="" class="container videoSplash">
+     
+     
+    
+    <video height="600px" onclick="this.play();"  controls="controls">
+      <source src="videos/spineApp.mp4" type="video/mp4" />
+    </video>      
+    
+    
+    
+
+  </div>
+</div>

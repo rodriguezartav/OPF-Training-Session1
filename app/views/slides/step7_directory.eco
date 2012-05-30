@@ -1,0 +1,30 @@
+<%- require("views/slideHeader")(options: @) %>
+
+  
+<div id="" class="container board">
+     
+     
+    
+
+<h1>Spine+OpF Directory Structure</h1>
+<hr/>
+<br/>
+      
+        <h2><span class="label label-info">/APP</span> Spine.JS Javascript</h2>
+
+        <h2><span class="label label-warning">/CSS</span>  CSS Files and Frameworks</h2>
+       
+        <h2><span class="label label-success">/SERVER</span>  NodeJS and Modules</h2>
+
+        <h2><span class="label label-success">/PUBLIC</span>  Images, Fonts, Html</h2>
+  
+        <h4>/node_modules</h4>
+      <h4>package.json</h4>
+
+      <h4>Procfile</h4>
+      <h4>.gitignore</h4>
+      <h4>.env</h4>
+
+  </div>
+  
+</div>

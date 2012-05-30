@@ -1,0 +1,22 @@
+<%- require("views/slideHeader")(options: @) %>
+
+<div id="" class="container board wide">
+
+<h1>The View</h1>
+<h3>/views/item.eco</h3>            
+
+<pre class="pre prettyprint">
+< div class="thumbnail <% if @InventarioActual == 0: %> disable  <% end %> ">
+
+  < a class="popable" rel="popover" data-content="..."      data-original-title="< %= @name %>"> >
+    < %= @name %>
+  < /a>
+
+< /div>
+  
+</pre>
+
+  </div>
+  
+</div>
+

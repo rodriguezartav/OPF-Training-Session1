@@ -1,0 +1,18 @@
+<%- require("views/slideHeader")(options: @) %>
+
+  <div id="productBar" class="container splash">
+    <div class="row">
+      <div class="hero-unit">
+        <h1>Building a Product Bar</span></h1>
+        <h2 class="">An OPF Usability Pattern for Product Discovery</h2>
+        
+        <div class="canvas"></div>
+        
+      </div>
+    </div>    
+   
+  
+  
+  
+</div>  
+  

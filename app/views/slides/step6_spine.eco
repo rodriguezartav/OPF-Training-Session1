@@ -1,0 +1,41 @@
+<%- require("views/slideHeader")(options: @) %>
+
+  
+  <div id="me" class="container image_splash">
+     
+     
+    <div class="row-fluid">
+
+    <div class="span3" >
+    
+      <img src="http://jswebapps.heroku.com/cover.png" />
+      
+    </div>
+    
+      <div class="span5">
+      <h4>@maccaw :  SPINEJS</h4>
+
+        <h1><span class="opf">SPINEJS</span></h2>
+      
+        
+        <ul class="unstyled">
+          <li><i class="icon- icon-bar-chart"></i>MVC LIGHTWEIGHT FRAMEWORK</li>
+          <li><i class="icon- icon-cogs"></i> OBJECT ORIENTED JAVASCRIPT</li>
+      
+      
+          <li><i class="icon- icon-bar-chart"></i> ALTERNATIVE TO BACKBONEJS</li>
+          
+          
+       
+    
+          </ul>
+      
+      
+      
+    </div>
+    
+    
+    
+
+  </div>
+</div>

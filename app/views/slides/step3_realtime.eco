@@ -1,0 +1,35 @@
+<%- require("views/slideHeader")(options: @) %>
+
+  
+  <div id="" class="container videoSplash">
+     
+     
+    <div class="row-fluid">
+
+    <div class="span6" >
+    
+    <video height="600px" onclick="this.play();"  controls="controls">
+      <source src="videos/facebook.mp4" type="video/mp4" />
+    </video>      
+    
+    </div>
+    
+      <div class="span4">
+
+        <h1><span class="opf">Realtime</span> Apps</h1>
+      
+        <h4><span class="label label-info">POPOVER</span> Pull contextual information</h4>
+
+        <h4><span class="label label-warning">FEEDS</span> Show Feeds and Updates</h4>
+       
+        <h4><span class="label label-success">CHAT</span> Chat and Realtime Collaboraration</h4>
+
+        <h4><span class="label label-error">WEB SOCKETS</span> Server Push</h4>
+
+    </div>
+    
+    
+    
+
+  </div>
+</div>

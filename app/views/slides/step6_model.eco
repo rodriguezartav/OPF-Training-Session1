@@ -1,0 +1,26 @@
+<%- require("views/slideHeader")(options: @) %>
+
+<div id="" class="container board wide">
+
+<h1>The Model</h1>
+
+<h3>/models/Todo.coffee</h3>            
+<pre class="prettyprint linenums">
+Spine = require('spine')
+
+class Todo extends Spine.Model
+  @configure "Todo" , "name" , "completed"
+
+  @extend Spine.Model.Local
+
+module.exports = Todo
+</pre>
+          <h1>API</h1>
+  <ul>
+    <li><h3>Todo.all()</h3></li>
+    <li><h3>Todo.create { name: "Salir" , completed: false }</h3></li>
+    <li><h3>todo = Todo.findAllByAttribure("completed" , true)</h3></li>
+    <li><h3>todo.destroy()</h3></li>
+  <ul>
+  
+</div>

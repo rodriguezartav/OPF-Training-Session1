@@ -1,0 +1,79 @@
+<%- require("views/slideHeader")(options: @) %>
+
+  <div id="" class="container board">
+    
+    <h1>Anatomy of a Traditional App</h1>
+    <hr/>
+    <br/>
+      <div class="row-fluid">
+        <div class="span5">
+          <div class="btn">
+          <h4 class="">Server</h4>
+          </div>
+        </div>
+        <div class="span3">
+         <i class="icon-huge icon-arrow-right"></i>
+        </div>
+        
+        <div class="span4">
+          <div class="btn btn-primary">
+            Client
+             </div> 
+            <br/>
+            <span class="label">HTML</span>
+            <span class="label">JS</span>
+            <span class="label">CSS</span>
+        
+        </div>
+      </div>
+      <hr/>
+        
+      <div class="row-fluid">
+        <div class="span5">
+          <div class="btn">
+          <h4 class="">Server</h4>
+          </div>
+        </div>
+        <div class="span3">
+         <i class="icon-huge icon-arrow-right"></i>
+        </div>
+        
+        <div class="span4">
+          <div class="btn btn-primary">
+            Client
+             </div> 
+            <br/>
+            <span class="label">HTML</span>
+            <span class="label">JS</span>
+            <span class="label">CSS</span>
+        
+        </div>
+      </div>
+      <hr/>
+      
+      <div class="row-fluid">
+        <div class="span5">
+          <div class="btn">
+          <h4 class="">Server</h4>
+          </div>
+        </div>
+        <div class="span3">
+         <i class="icon-huge icon-arrow-right"></i>
+        </div>
+        
+        <div class="span4">
+          <div class="btn btn-primary">
+            Client
+             </div> 
+            <br/>
+            <span class="label">HTML</span>
+            <span class="label">JS</span>
+            <span class="label">CSS</span>
+        
+        </div>
+      </div>
+      <hr/>
+        
+        
+    </div>
+

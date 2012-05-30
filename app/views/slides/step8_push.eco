@@ -1,0 +1,80 @@
+<%- require("views/slideHeader")(options: @) %>
+
+<div id="" class="container board">
+  
+  <h1>Render Process</h1>
+  <hr/>
+  <div class="row-fluid">
+    <div class="span4">
+      <h4 class="btn">Producto Change</h4>
+    </div>
+    <i class="icon-huge icon-arrow-right span3"></i>
+    
+    
+    <div class="span4">
+      <div class="btn btn-primary">Notify Pusher</div> 
+      <br/>
+      <span class="label">HTML</span>
+      <span class="label">JS</span>
+      <span class="label">CSS</span>
+    </div>
+  </div>
+  
+  <br/>
+  
+  <div class="row-fluid">
+    <div class="span4">
+      <h4 class="btn">onLoad</h4>
+    </div>
+    
+    <i class="icon-huge icon-arrow-right span2"></i>
+    <div class="span6">
+      <p class="">var app = require("app")</p>
+      <p class="">app = new App( $('body') )</p>
+      
+    </div>
+  </div>
+
+  <br/>
+  <div class="row-fluid">
+     <div class="span4"> 
+    <h4 class="btn">App init</h4>
+  </div>
+  
+  <i class="icon-huge icon-arrow-right span2"></i>
+  <div class="span6">
+    <p class="">@html require("/views/layout")<br/>@header = new Header(@header)</p>
+    <p class="">for models in socketModels<br/>&nbsp;&nbsp;socketModel.fetch()
+  </div>
+</div>
+
+
+  <br/>
+  <div class="row-fluid">
+    <div class="span4"> 
+    <h4 class="btn">input<br/>change</h4>
+    <h6>.menuItem click</h6>
+  </div>
+  
+  <i class="icon-huge icon-arrow-right span2"></i>
+  <div class="span6">
+    <p class="">Producto.filterByName(@input.val())</p>
+    <p class="">@renderList(Producto.current)</p>
+  </div>
+</div>
+  
+  
+    <br/>
+    <div class="row-fluid">
+      <div class="span4"> 
+      <h4 class="btn">renderList</h4>
+    </div>
+
+    <i class="icon-huge icon-arrow-right span2"></i>
+    <div class="span6">
+      <p class="">@itemList.html = &nbsp;&nbsp;require("views/producto/item") &nbsp;&nbsp;(Producto.current)</p>
+    </div>
+  </div>
+      
+</div>
+

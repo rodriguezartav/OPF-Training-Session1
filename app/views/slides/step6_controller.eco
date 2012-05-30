@@ -1,0 +1,32 @@
+<%- require("views/slideHeader")(options: @) %>
+
+<div id="" class="container board wide">
+
+<h1>The Controller</h1>
+<h3>/controllers/Todos.coffee</h3>            
+
+<pre class="pre prettyprint linenums ">
+require('lib/setup')
+Todo = require('models/todo')
+Spine = require('spine')
+
+class Todos extends Spine.Controller
+
+events:
+  "click .btn_add_todo" : "onAddTodo"
+
+constructor: ->
+  super
+  @html require("views/todo/layout")
+
+onAddTodo: (e) =>
+  todo = Todo.create { name: @txt_todo.val() }
+  item = new Item( todo: todo)
+  @append item
+
+module.exports = Todos  
+    </pre>
+
+  </div>
+  
+</div>

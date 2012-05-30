@@ -1,0 +1,32 @@
+<%- require("views/slideHeader")(options: @) %>
+
+<div id="" class="container board wide">
+
+<h1>The Item Controller</h1>
+<h3>/controllers/Todos.coffee</h3>            
+
+<pre class="pre prettyprint linenums ">
+class Item extends Spine.Controller
+  tag: "li"
+  className: "well"
+
+  events:
+    "click .btn_remove_todo" : "onRemoveTodo"
+    "click .name"           : "onClick"
+    
+  constructor: ->
+    super
+    @html require("views/controllers/todo/item")(@todo)
+
+  onClick: (e) =>
+    target = $(e.target)
+    target.html "< s>#{target.html()}< /s>"
+
+  onRemoveTodo: =>
+    @todo.destroy()
+    @release()
+</pre>
+
+  </div>
+  
+</div>

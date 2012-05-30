@@ -1,0 +1,6 @@
+<span class="name">
+  <%= @name %>
+</span>
+<a class="btn btn-danger pull-right btn_remove_todo">
+  <i class="icon-remove"></i>
+</a>

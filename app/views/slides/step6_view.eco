@@ -1,0 +1,33 @@
+<%- require("views/slideHeader")(options: @) %>
+
+<div id="" class="container board wide">
+
+<h1>The View</h1>
+
+
+<h3>/views/layout.eco</h3>      
+<pre class="pre prettyprint linenums lang-html">
+  < div class="well">
+    < input />
+    < a class=" btn_add_todo">
+      < i class="icon-ok-sign">< /i>
+    < /a>
+  < /div>
+
+  < ul class="unstyled list">
+  < /ul>
+      
+</pre>
+
+<h3>/views/item.eco</h3>      
+<pre class="pre prettyprint">
+
+  < span class="name">
+    < %= @name %>
+  < /span>
+
+</pre>
+      
+  </div>
+  
+</div>

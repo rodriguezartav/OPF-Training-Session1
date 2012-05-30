@@ -1,0 +1,28 @@
+<%- require("views/slideHeader")(options: @) %>
+
+<div id="" class="container board wide">
+
+  <h3>/controllers/productBar.coffee</h3>            
+
+<pre class="pre prettyprint">
+class Item extends Spine.Controller
+  tag: "li"
+  className: "span3"
+  
+  elements: 
+    ".popable" : "popable"
+
+  constructor: ->
+    super
+    Product.bind "change update" , @render
+    @render()
+  
+  render: =>
+    @html require("views/controllers/productBar/item")(@product)
+    @popable.popover()
+
+
+</pre>
+  
+</div>
+

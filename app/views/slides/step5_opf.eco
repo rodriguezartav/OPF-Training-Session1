@@ -1,0 +1,35 @@
+<%- require("views/slideHeader")(options: @) %>
+
+  
+  <div id="opfTraining" class="container imageSplash">
+     
+     
+    <div class="row-fluid">
+
+    <div class="span5" >
+    
+      <img src="images/icons/dashboard.png" />
+      
+    </div>
+    
+      <div class="span7">
+
+        <h1><span class="opf">About</span> OPF</h1>
+      
+        <h2><span class="label label-info">2009</span> We Started Building Apps for Web & Mobile</h2>
+
+        <h2><span class="label label-warning">2010</span>  Then we turned the code into Reusable Modules</h2>
+       
+        <h2><span class="label label-success">2012</span>  Created Apps that build other apps</h2>
+
+        <h2><span class="label label-success">2012</span>  "Opensourced" code and apps in Github</h2>
+      
+      
+      
+    </div>
+    
+    
+    
+
+  </div>
+</div>

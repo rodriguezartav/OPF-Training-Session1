@@ -1,0 +1,1 @@
+<div data-height="<%= @height || null %>" class="step slide" data-x="<%= @options.x %>" data-y="<%= @options.y %>" data-scale="<%= @options.scale %>" data-rotate="<%= @options.rotate %>" >

@@ -1,0 +1,73 @@
+<%- require("views/slideHeader")(options: @) %>
+
+  <div id="" class="container board wide">
+      <h1>Product Bar Anatomy</h1>
+      <h5>Used for Selecting Products by Category or Search Box</h5>
+<hr/>
+       <div class="row-fluid">
+       
+        <div class="span6">
+         
+         <h4><span class="label label-info">Views</span> </h4> 
+           <ul>
+             <li>
+               <h3>views/layout</h3>
+             </li>
+
+             <li>
+               <h3>views/item</h3>
+             </li>
+
+           </ul>
+           <br/>
+         
+          <h4><span class="label label-info">Models</span> </h4> 
+          <ul>
+            <li>
+            <h3>/models/product.coffee</h3>
+            <div class="alert">
+              Uses SelectableModel and SockeModel OPF Add-Ons
+            </div>
+            </li>
+          </ul>
+
+          <br/>
+
+          <h4><span class="label label-info">Controllers</span> </h4> 
+          <ul>
+
+            <li>
+            <h3>/controllers/productBar.coffee</h3>
+            </li>
+
+          </ul>
+
+  </div>
+
+      <div class="span6">
+
+        <h4><span class="label label-warning">OPF Frontend</span>  </h4>
+        <h3>/lib/socketModel.coffee</h3>
+
+        <br/>
+        
+        <h4><span class="label label-warning">Realtime with Pusher</span>  </h4>
+        <h3>/lib/socketManager.coffee</h3>
+
+
+        <br/>
+
+        <h4><span class="label label-warning">OPF Server</span>  </h4>
+        <h3>/server/opfDevUtil.coffee</h3>
+        
+        <div class="alert">Compiles Coffee and Less for each refresh when in Development</div>
+
+
+          <h4><span class="label label-warning">Other Files</span>  </h4>
+          <h3>.env</h3>
+          <h3>.gitignore</h3>
+        
+        
+      </div>
+
+            

@@ -1,0 +1,24 @@
+<%- require("views/slideHeader")(options: @) %>
+
+<div id="" class="container board">
+
+  <h1>Compilers & Frameworks </h1>
+  <hr/>
+  <div class="row-fluid parts">
+    <style>
+      .parts h2{
+        display: inline-block;
+      }
+    </style>
+    <h2><span class="label label-">Github</span> </h2>
+    <h2><span class="label label-info">NPM</span>  </h2>    
+    <h2><span class="label label-success">Coffeescript</span>  </h2>
+    <h2><span class="label label-success">Less + Twitter Bootstrap</span>  </h2>
+    
+    <h2><span class="label label-info">Hem+OPF</span>  </h2>
+    <h2><span class="label label-warning">NodeJS</span>  </h2>
+
+    <h2><span class="label label-warning">Heroku</span> </h2>
+  </div>
+</div>
+  

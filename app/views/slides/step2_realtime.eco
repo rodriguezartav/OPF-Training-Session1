@@ -1,0 +1,18 @@
+<%- require("views/slideHeader")(options: @) %>
+
+<div id="" class="container bulletDescription">
+
+
+      <dl class="">
+
+    
+
+        <dt>
+          <i class="icon-retweet"></i> Realtime Web</dt>
+          <dd>
+            <h6>Push Notifications over Web Sockets<h6>
+            <h3>Two-Way Communication make Apps feel alive and connected</h3>
+          </dd>
+
+    
+</div>

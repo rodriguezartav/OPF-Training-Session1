@@ -1,0 +1,38 @@
+<%- require("views/slideHeader")(options: @) %>
+
+  <div id="contents" class="container board wide">
+      <h1>Apps that Build Apps</h1>
+      <h5>Code Generators are common such as Cairngorm for Flex and Spring for Java</h5>
+
+      <div class="alert">
+        <h4>For a Generator to make sense, the developer should be able to do by hand what the generator does automatically.</h4>
+      </div>
+
+
+
+  
+      <div class="row-fluid">
+      <div class="span6">
+        <h1>SPINE</h1>  
+        <h2><span class="label label-success">SIMPLE</span></h2>
+        <h2><span class="label label-info">OUT-OF-THE-BOX</span></h2>
+        <h2><span class="label label-warning">STYLUS</span></h2>
+        <h2><span class="label label-primary">HEM</span></h2>
+
+      </div>
+    
+        
+        <div class="span6">
+          <h1>OPF</h1>  
+          <h2><span class="label  label-success">CUSTOMIZABLE</span></h2>
+          <h2><span class="label  label-info">EXPRESS+OPF</span></h2>
+          <h2><span class="label  label-warning">TWITTER BOOTSTRAP</span></h2>
+          <h2><span class="label  label-success">WEB SOCKETS</span></h2>
+          <h2><span class="label">Sandboxed</span></h2>
+
+
+
+        </div>        
+        
+            
+  </div>

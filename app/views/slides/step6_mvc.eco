@@ -1,0 +1,32 @@
+<%- require("views/slideHeader")(options: @) %>
+
+  
+<div id="" class="container imageSplash">
+     
+     
+    
+
+<h1>The MVC Pattern</h1>
+<br/>
+      
+    <div class="row-fluid">
+    
+      <div class="span5">
+        <img src="images/folder.png" />
+        
+      </div>
+
+      <div class="span7">      
+        <h2><span class="label label-info">MODEL</span> Objects In Memory</h2>
+
+        <h2><span class="label label-warning">VIEW</span>  Templates & Components</h2>
+       
+        <h2><span class="label label-success">CONTROLLER</span>  Glue & Logic</h2>
+<hr/>
+        <h2><span class="label ">COMMONJS</span> Todo = require('models/todo')</h2>
+
+      </div>
+
+  </div>
+  
+</div>

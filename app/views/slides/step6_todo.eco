@@ -1,0 +1,11 @@
+<%- require("views/slideHeader")(options: @) %>
+
+<div id="todo" class="container splash todo">
+  <div class="row">
+    <div  class="hero-unit canvas">
+
+      
+    </div>
+  </div>    
+</div>  
+  

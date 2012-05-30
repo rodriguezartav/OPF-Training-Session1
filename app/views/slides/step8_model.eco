@@ -1,0 +1,25 @@
+<%- require("views/slideHeader")(options: @) %>
+
+<div id="" class="container board wide">
+
+<h1>The Model</h1>
+<h3>/controllers/productBar.coffee</h3>            
+
+<pre class="pre prettyprint">
+Spine = require('spine')
+
+class Product extends Spine.Model
+  @configure "Todo" , "name" , "retailPrice" , "available"
+
+  @extend Spine.Model.SelectableModel
+  @extend Spine.Model.SocketModel
+
+  @autoPush = true;
+
+module.exports = Product
+
+</pre>
+
+  </div>
+  
+</div>

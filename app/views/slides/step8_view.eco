@@ -1,0 +1,31 @@
+<%- require("views/slideHeader")(options: @) %>
+
+<div id="" class="container board wide">
+
+<h1>The View</h1>
+<h3>/views/layout.eco</h3>            
+
+<pre class="pre prettyprint">
+  < div class="navbar">
+      < div class="navbar-inner">
+        < div class="container">
+        
+  ....
+  
+  < ul class="dropdown-menu">
+    < li>< a  class="search" data-query="running" >Running Shoes< /a>< /li>
+    < li>< a  class="search" data-query="sandals" >Sandals & Crocs< /a>< /li>
+    < li>< a  class="search"  data-query="leader" >Leader< /a>< /li>
+  
+  ...
+  
+   < ul class="productos_list thumbnails" >
+   
+   < /ul>
+  
+  
+</pre>
+
+  </div>
+  
+</div>

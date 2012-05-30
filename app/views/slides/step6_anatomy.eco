@@ -1,0 +1,75 @@
+<%- require("views/slideHeader")(options: @) %>
+
+  <div id="" class="container board">
+    
+    <h1>Anatomy of a Modern App</h1>
+    <hr/>
+    <br/>
+      <div class="row-fluid">
+        <div class="span5">
+          <div class="btn">
+          <h4 class="">Server</h4>
+          </div>
+        </div>
+        <div class="span3">
+         <i class="icon-huge icon-arrow-right"></i>
+        </div>
+        
+        <div class="span4">
+          <div class="btn btn-primary">
+            Client
+             </div> 
+            <br/>
+            <span class="label">HTML</span>
+            <span class="label">JS</span>
+            <span class="label">CSS</span>
+        
+        </div>
+      </div>
+      <hr/>
+      <div class="row-fluid">
+        <div class="span5">
+         
+        </div>
+        <div class="span3">
+         <i class="icon-huge icon-arrow-left"></i>
+         <span class="label">AJAX</span>
+         
+        </div>
+        
+        <div class="span4">
+           <div class="btn btn-primary">
+              Client
+               </div>            
+
+        </div>
+        
+        
+        
+      </div>
+      
+      <hr/>
+      <div class="row-fluid">
+        <div class="span5">
+          <div class="btn btn-warning">Server</div>  
+          <br/>
+          <span class="label">Web Sockets</span>
+                        
+         
+        </div>
+        <div class="span3">
+        <span class="label">JSON</span>
+
+         <i class="icon-huge icon-arrow-right"></i>
+         
+        </div>
+        
+        <div class="span4">
+           <div class="btn btn-primary">Client</div>
+           
+        </div>
+        
+        
+        
+      </div>
+

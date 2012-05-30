@@ -1,0 +1,31 @@
+<%- require("views/slideHeader")(options: @) %>
+
+  
+  <div id="opfTraining" class="container image_splash">
+     
+     
+    <div class="row-fluid">
+
+    <div class="span5" >
+    
+      <img src="images/icons/xcode.png" />
+      
+    </div>
+    
+      <div class="span7">
+
+        <h1><span class="opf">OPF </span> Part By Part</h1>
+      
+        <h2><i class="label label-info"></i> <span>OPF Frontend</span>  Realtime SpineJS Single Page App in NodeJS</h2>
+
+        <h2><i class="label label-warning"></i>  <span>OPF HUB </span> Application Central API and Integration HUB</h2>
+       
+        <h2><i class="label label-success"></i>  <span>OPF Force.com </span> Workflow Oriented Applications</h2>
+      
+    </div>
+    
+    
+    
+
+  </div>
+</div>

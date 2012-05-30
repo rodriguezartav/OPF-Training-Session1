@@ -1,0 +1,35 @@
+<%- require("views/slideHeader")(options: @) %>
+
+  
+  <div id="asyn" class="container videoSplash">
+     
+     
+    <div class="row-fluid">
+
+    <div class="span9" >
+    
+    <video height="550px" onclick="this.play();"  controls="controls">
+      <source src="videos/opf.mp4" type="video/mp4" />
+    </video>      
+
+    </div>
+    
+      <div class="span3">
+
+        <h1><span class="opf">Async</span> UI's</h1>
+      
+        <h4><span class="label label-info">TEMPLATES</span> HTML</h4>
+
+        <h4><span class="label label-warning">EVENTS</span></h4>
+       
+        <h4><span class="label label-success">STATS</span> </h4>
+
+        <h4><span class="label">MODALS</span> </h4>
+
+    </div>
+    
+    
+    
+
+  </div>
+</div>

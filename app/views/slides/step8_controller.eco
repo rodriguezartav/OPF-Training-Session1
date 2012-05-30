@@ -1,0 +1,33 @@
+<%- require("views/slideHeader")(options: @) %>
+
+<div id="" class="container board wide">
+
+<h3>/controllers/productBar.coffee</h3>            
+
+<pre class="pre prettyprint">
+class ProductBar extends Spine.Controller
+  elements:
+    ".productos_list"  : "productos_list"
+
+  events:
+    "change .txt_query"   : "onChange"
+    "click .search"       : "onClick"
+
+  constructor: ->
+    super
+    @html require("views/controllers/productBar/layout")
+
+  onClick: (e) ->
+    link = $(e.target)
+    @search( link.attr("data-query") )
+  
+  search: (query) ->
+    productos = Product.filter query
+    for product in productos
+      @productos_list.append new Item(product: product).el
+
+</pre>
+
+  </div>
+  
+</div>

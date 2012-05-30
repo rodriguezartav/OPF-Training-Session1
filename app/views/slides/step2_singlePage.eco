@@ -1,0 +1,17 @@
+<%- require("views/slideHeader")(options: @) %>
+
+<div id="" class="container bulletDescription">
+
+
+
+      <dl class="">
+
+        <dt><i class="icon-cogs"></i> Single Page Apps</dt>
+          <dd>
+            <h6>Single Page Applications Frontends<h6>
+            <h3>Forget about Click & Wait, web apps that behave like desktop apps</h3>
+          </dd>
+
+      
+
+</div>
